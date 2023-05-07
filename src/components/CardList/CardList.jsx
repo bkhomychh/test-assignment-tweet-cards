@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import Card from 'components/Card/Card';
 import Button from 'components/Button';
 import Loader from 'components/Loader';
-import { List } from './CardList.styled';
+import { List, Wrapper } from './CardList.styled';
 
 import { getUsers } from 'services/api';
 import { USER_COUNT } from 'utils';
@@ -30,7 +30,7 @@ const CardList = () => {
   const increasePage = () => setCurrentPage(state => state + 1);
 
   return (
-    <>
+    <Wrapper>
       <List>
         {users.map(user => (
           <li key={user.id}>
@@ -41,9 +41,10 @@ const CardList = () => {
       {isFetching ? (
         <Loader />
       ) : (
+        users.length > 0 &&
         users.length < USER_COUNT && <Button onClick={increasePage}>Load more</Button>
       )}
-    </>
+    </Wrapper>
   );
 };
 

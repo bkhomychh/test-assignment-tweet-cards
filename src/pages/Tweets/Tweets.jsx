@@ -3,10 +3,10 @@ import CardList from 'components/CardList';
 
 const Tweets = () => {
   return (
-    <div>
+    <>
       <BackLink />
       <CardList />
-    </div>
+    </>
   );
 };
 
