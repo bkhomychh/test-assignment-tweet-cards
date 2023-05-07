@@ -2,7 +2,8 @@ import styled from 'styled-components';
 
 export const StyledButton = styled.button`
   padding: 14px 0;
-  width: 196px;
+  min-width: ${({ thin }) => (thin ? '120px' : '196px')};
+  width: max-content;
   display: flex;
   justify-content: center;
 

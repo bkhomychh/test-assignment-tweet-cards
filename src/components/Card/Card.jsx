@@ -2,7 +2,7 @@ import { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 
 import Button from 'components/Button';
-import { Wrapper, Avatar, Logo, Info, Box } from './Card.styled';
+import { Wrapper, Avatar, Logo, Info, Box, Thumb } from './Card.styled';
 
 import { getDataFromLocalStorage, saveDataToLocalStorage } from 'services';
 import { formatNumber } from 'utils';
@@ -38,9 +38,11 @@ const Card = ({ item }) => {
 
   return (
     <Wrapper>
-      <Logo src={LogoImg} alt="Logo" width={76} height={22} />
+      <Logo src={LogoImg} alt="Logo" />
       <Box>
-        <Avatar src={avatar} alt={user} width={80} height={80} />
+        <Thumb>
+          <Avatar src={avatar} alt={user} />
+        </Thumb>
       </Box>
       <Info>
         <p>{tweets} tweets</p>

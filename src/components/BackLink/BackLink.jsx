@@ -5,7 +5,7 @@ const BackLink = () => {
   const location = useLocation();
 
   return (
-    <Button as={Link} to={location.state?.from || '/'}>
+    <Button as={Link} to={location.state?.from || '/'} thin>
       &larr; Back
     </Button>
   );
