@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/test-assignment-tweet-cards/static/css/main.92dae97f.css",
+    "main.js": "/test-assignment-tweet-cards/static/js/main.ec580258.js",
+    "static/js/221.cc0e1a20.chunk.js": "/test-assignment-tweet-cards/static/js/221.cc0e1a20.chunk.js",
+    "static/js/859.6c08d135.chunk.js": "/test-assignment-tweet-cards/static/js/859.6c08d135.chunk.js",
+    "static/js/671.a6daca96.chunk.js": "/test-assignment-tweet-cards/static/js/671.a6daca96.chunk.js",
+    "static/media/bg-card.png": "/test-assignment-tweet-cards/static/media/bg-card.38ea3189a2c780f4bbbf.png",
+    "static/media/logo.svg": "/test-assignment-tweet-cards/static/media/logo.e917114d7945c04c85a8946a331d28b6.svg",
+    "static/media/circle.svg": "/test-assignment-tweet-cards/static/media/circle.77f9a8484aa5bbe7fb8d02de00904a21.svg",
+    "index.html": "/test-assignment-tweet-cards/index.html",
+    "main.92dae97f.css.map": "/test-assignment-tweet-cards/static/css/main.92dae97f.css.map",
+    "main.ec580258.js.map": "/test-assignment-tweet-cards/static/js/main.ec580258.js.map",
+    "221.cc0e1a20.chunk.js.map": "/test-assignment-tweet-cards/static/js/221.cc0e1a20.chunk.js.map",
+    "859.6c08d135.chunk.js.map": "/test-assignment-tweet-cards/static/js/859.6c08d135.chunk.js.map",
+    "671.a6daca96.chunk.js.map": "/test-assignment-tweet-cards/static/js/671.a6daca96.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.92dae97f.css",
+    "static/js/main.ec580258.js"
+  ]
+}
